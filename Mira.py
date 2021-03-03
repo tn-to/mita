@@ -38,7 +38,7 @@ if choose == '1':
     print('\033[1;31mPlease Wait')
     os.system('clear')
     print('Metasploit install successfully')
-    
+    os.system('msfconsole')
 elif choose == '2':
     os.system('clear')
     print(logo)
